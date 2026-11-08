@@ -74,24 +74,90 @@ Objetivo: [tirar uma ideia do papel].
 
 ## Minha entrega
 
-Edite este README pelo lápis, role até aqui e cole (Ctrl+V) um print de cada passo, sem dados pessoais.
+Olá! Como posso ajudar? Estou na pasta dio-agent-main. Posso explorar o projeto, explicar o código, corrigir algo ou criar uma funcionalidade nova.
 
-### Configure
+Bora destravar! E já parabéns: você chegou bem perto. A estrutura está certa (ler o n, começar soma em 0, laço de 1 até n, imprimir no fim). O problema está em uma única linha.
 
-_Cole o print do DIO Agent se apresentando._
+🧠 Primeira dica: o que o = faz
+Em JavaScript, o = é atribuição. Ele substitui o valor antigo da variável pelo novo. O valor antigo é jogado fora.
 
-### Estudar
+Pensa num quadro branco: cada vez que roda soma = i, você apaga o quadro e escreve só o número da vez.
 
-_Cole o print da explicação._
+🔍 Teste de mesa
+Vamos “rodar o código no papel” com n = 4. Olha o que acontece com soma a cada volta do laço:
 
-### Praticar
+Volta	i	O que a linha faz	soma depois
+1ª	1	soma = 1	1
+2ª	2	soma = 2	2
+3ª	3	soma = 3	3
+4ª	4	soma = 4	4
+É por isso que sai só o último número. Mas a resposta certa para n = 4 seria 10 (1 + 2 + 3 + 4).
 
-_Cole o print da dica que destravou você._
+🤔 Agora é com você
+Preencha essa mesma tabela, mas do jeito que deveria ser:
 
-### Planejar
+Volta	i	soma antes	soma depois
+1ª	1	0	1
+2ª	2	1	3
+3ª	3	?	?
+4ª	4	?	?
+Repara na relação entre a coluna “antes”, o i e a coluna “depois”.
 
-_Cole o print do seu plano de estudos._
+Olhando essa tabela, como você calcularia o novo valor de soma a partir do valor antigo dela e do i?
 
-### Como foi para você
+Me conta o que pensou, mesmo que não tenha certeza. Se ainda travar, te dou a próxima dica. 😉
 
-_Conte em poucas linhas como foi usar o DIO Agent pela primeira vez._
+Quero montar um plano de estudos.
+Trilha: Ai Builder
+Objetivo: concluir em [4 semanas].
+Meu nível: iniciante.
+Tempo: 1 hora por dia, de segunda a sexta.
+
+Montei seu plano! Antes, um aviso importante para ele caber na sua rotina.
+
+⚠️ Combinando expectativas
+AI Builder é uma Carreira da DIO, não uma única trilha. Ela tem uma Formação de base e mais três caminhos (Negócios, SaaS e Agentes). Concluir a Carreira inteira em 4 semanas, estudando 1 hora por dia, não seria realista.
+
+O que cabe muito bem nesse prazo é a Formação de base: Inteligência Artificial na Prática. Ela é o ponto de partida recomendado para iniciantes e, segundo a página, não tem pré-requisitos.
+
+E um detalhe legal: o projeto final dessa Formação é configurar e usar o DIO Agent. Ou seja, você já começou! 🎉
+
+📋 Resumo
+Base: Formação Inteligência Artificial na Prática (3 módulos, 9 atividades)
+Nível: iniciante
+Ritmo: 1h por dia, de segunda a sexta (5h por semana, 20h no total)
+Duração estimada: a página não mostra a carga horária (o contador aparece como 0). Por isso fiz uma estimativa pela quantidade de atividades, deixando uma folga generosa.
+🗓️ Cronograma
+Semana 1: Fundamentos
+
+Dia	O que fazer
+Seg	Módulo 1, Entendendo a IA Que Você Já Usa, atividade 1
+Ter	Módulo 1, atividade 2
+Qua	Módulo 1, atividade 3
+Qui	Módulo 2, Prompt e Contexto: Pedindo Bem à IA, atividade 1
+Sex	Revisão: teste 3 prompts diferentes para uma mesma tarefa sua e compare os resultados
+Semana 2: Prática e projeto
+
+Dia	O que fazer
+Seg	Módulo 2, atividades 2 e 3
+Ter	Módulo 3, Seu Primeiro Assistente e o Próximo Passo, atividade 1
+Qua	Módulo 3, atividades 2 e 3
+Qui	Projeto final, DIO Agent na Prática: use a skill de plano de estudos (já fizemos isso aqui 😉) e a de destravar desafios
+Sex	Projeto final: monte seu plano estratégico de carreira com a skill Caminho AI Builder
+Semanas 3 e 4: Primeiro passo no caminho escolhido
+Essa parte depende de qual Formação você vai escolher no fim da semana 2. Quando você decidir, eu preencho essas duas semanas com os módulos reais dela.
+
+🏁 Marcos
+✅ Fim da semana 1: você explica, com as suas palavras, por que um prompt com contexto funciona melhor.
+✅ Fim da semana 2: Formação de base concluída, projeto final entregue e caminho escolhido.
+✅ Fim da semana 4: primeiros módulos da Formação escolhida concluídos.
+💡 Dica: registre essa rotina na ferramenta Meta de Estudo da DIO, dentro da Formação. Você define os dias e o tempo de estudo, acompanha seu progresso e recebe lembretes por e-mail. Ajuda muito a manter a constância.
+
+Para eu já adiantar as semanas 3 e 4: o que você gostaria de construir com IA? Por exemplo, um produto para um negócio, um software, ou agentes que automatizam tarefas. Se ainda não souber, tudo bem, a semana 2 serve justamente para descobrir isso.
+
+Fontes:
+
+Formação Inteligência Artificial na Prática, DIO
+
+
+essas foram algumas respostas do dioAgent
